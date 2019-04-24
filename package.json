@@ -1,0 +1,23 @@
+{
+  "name": "neighborhood-database-backend",
+  "version": "1.0.0",
+  "description": "postgresql Zillow",
+  "main": "index.js",
+  "scripts": {
+    "createCSV": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrSankofa/neighborhood-database-backend.git"
+  },
+  "author": "Brett Cunningham II",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MrSankofa/neighborhood-database-backend/issues"
+  },
+  "homepage": "https://github.com/MrSankofa/neighborhood-database-backend#readme",
+  "dependencies": {
+    "csv-writer": "^1.3.0",
+    "faker": "^4.1.0"
+  }
+}
